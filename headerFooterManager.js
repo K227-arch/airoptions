@@ -1,9 +1,9 @@
 class SpecialHeader extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-        <header class="transparent scroll-light has-topbar">
+        <header class="transparent scroll-light has-topbar" >
             <div id="topbar">
-                <div class="container">
+                <div class="container" >
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="d-flex justify-content-between xs-hide">
@@ -26,22 +26,23 @@ class SpecialHeader extends HTMLElement {
                     <div class="clearfix"></div>
                 </div>
             </div>
-            <div class="container">
-                <div class="row">
+            
+            <div class="container" style="background-color:white; height:90px;" >
+                <div class="row" >
                     <div class="col-md-12">
                         <div class="de-flex sm-pt10">
                             <div class="de-flex-col">
                                 <!-- logo begin -->
                                 <div id="logo">
                                     <a href="index.html">
-                                        <img class="logo-main" src="images/AOU_LOGO.png" alt="">
-                                        <img class="logo-scroll" src="images/AOU_LOGO.png" alt="">
-                                        <img class="logo-mobile" src="images/AOU_LOGO.png" alt="">
+                                        <img class="logo-main" src="images/AOU_LOGO.png" style="width:200px; height:60px;" alt="">
+                                        <img class="logo-scroll" src="images/AOU_LOGO.png" style="width:200px; height:60px;" alt="">
+                                        <img class="logo-mobile" src="images/AOU_LOGO.png" style="width:200px; height:60px;" alt="">
                                     </a>
                                 </div>
                                 <!-- logo close -->
                             </div>
-                            <div class="de-flex-col header-col-mid">
+                            <div class="de-flex-col header-col-mid" >
                                 <ul id="mainmenu">
                                     <li><a class="menu-item" href="index.html">Home</a>
                                         
@@ -65,7 +66,7 @@ class SpecialHeader extends HTMLElement {
                             <div class="de-flex-col">
                                 <div class="menu_side_area">          
                                     <a href="contact.html" class="btn-main bg-color-2">Schedule Now</a>
-                                    <span id="menu-btn"></span>
+                                    <span id="menu-btn" style="color:blue"></span>
                                 </div>
                             </div>
                         </div>

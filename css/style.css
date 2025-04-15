@@ -72,7 +72,7 @@ Table of content:
   --title-font: "Manrope", Helvetica, Arial, sans-serif;
   --body-font-size: 16px;
   --title-font-weight: 600;
-  --title-font-color: #0a2540;
+  --title-font-color: black;
   --body-font: "Manrope", Helvetica, Arial, sans-serif;
   --border-default: solid 1px rgba(30, 30, 30, 1);
   --bg-color-even: #E8E8E8;
@@ -129,7 +129,7 @@ html {
 
 body {
   font-family: var(--body-font);
-  font-size: var(--body-font-size)
+  font-size: var(--body-font-size);
   font-weight: 400;
   color: var(--body-font-color);
   padding: 0;
@@ -331,7 +331,7 @@ header .logo-2 {
 }
 .logo-mobile{
   width:200px;
-  height:90px;
+  height:10px;
 }
 header .logo-2 {
   color: #333;
@@ -1745,6 +1745,8 @@ header.side-header .social-icons-2 {
   float: none;
   text-align: center;
 }
+
+
 
 header.side-header .social-icons-2 a {
   display: inline-block;
