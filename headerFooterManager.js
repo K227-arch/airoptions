@@ -3,7 +3,7 @@ class SpecialHeader extends HTMLElement {
         this.innerHTML = `
         <header class="transparent scroll-light has-topbar" >
             <div id="topbar">
-                <div class="container" >
+                <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="d-flex justify-content-between xs-hide">
@@ -27,7 +27,7 @@ class SpecialHeader extends HTMLElement {
                 </div>
             </div>
             
-            <div class="container" style="background-color:white; height:90px;" >
+            <div class="container" style="background-color:transparent; height:90px;" >
                 <div class="row" >
                     <div class="col-md-12">
                         <div class="de-flex sm-pt10">
