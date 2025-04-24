@@ -27,7 +27,7 @@ class SpecialHeader extends HTMLElement {
                 </div>
             </div>
             
-            <div class="container" style="background-color:transparent; height:90px;" >
+            <div class="container" >
                 <div class="row" >
                     <div class="col-md-12">
                         <div class="de-flex sm-pt10">
@@ -37,12 +37,13 @@ class SpecialHeader extends HTMLElement {
                                     <a href="index.html">
                                         <img class="logo-main" src="images/AOU_LOGO.png" style="width:200px; height:60px;" alt="">
                                         <img class="logo-scroll" src="images/AOU_LOGO.png" style="width:200px; height:60px;" alt="">
-                                        <img class="logo-mobile" src="images/AOU_LOGO.png" style="width:200px; height:60px;" alt="">
+                                           
+                                         <h3 class="logo-mobile" style="color:white; width:200px; height:50px; margin-top:30px;">AirOptions</h3>
                                     </a>
                                 </div>
                                 <!-- logo close -->
                             </div>
-                            <div class="de-flex-col header-col-mid" >
+                            <div class="de-flex-col header-col-mid">
                                 <ul id="mainmenu">
                                     <li><a class="menu-item" href="index.html">Home</a>
                                         
@@ -66,7 +67,7 @@ class SpecialHeader extends HTMLElement {
                             <div class="de-flex-col">
                                 <div class="menu_side_area">          
                                     <a href="contact.html" class="btn-main bg-color-2">Schedule Now</a>
-                                    <span id="menu-btn" style="color:blue"></span>
+                                    <span id="menu-btn" style="color:white;"></span>
                                 </div>
                             </div>
                         </div>
