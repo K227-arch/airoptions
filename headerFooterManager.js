@@ -15,7 +15,7 @@ class SpecialHeader extends HTMLElement {
 
                                 <div class="social-icons">
                                     <a href="#"><i class="fa-brands fa-facebook fa-lg"></i></a>
-                                    <a href="#"><i class="fa-brands fa-x-twitter fa-lg"></i></a>
+                                    <a href="https://x.com/options_air"><i class="fa-brands fa-x-twitter fa-lg"></i></a>
                                     <a href="#"><i class="fa-brands fa-youtube fa-lg"></i></a>
                                     <a href="#"><i class="fa-brands fa-pinterest fa-lg"></i></a>
                                     <a href="#"><i class="fa-brands fa-instagram fa-lg"></i></a>
@@ -59,7 +59,7 @@ class SpecialHeader extends HTMLElement {
                                         </ul>
                                     </li>
                                     <li><a class="menu-item" href="about.html">About Us</a></li>
-                                    <li><a class="menu-item" href="projects.html">Products</a></li>
+                                    <li><a class="menu-item" href="projects.html">Clientele</a></li>
                                     <li><a class="menu-item" href="blog.html">Blog</a></li>
                                     <li><a class="menu-item" href="contact.html">Contact Us</a></li>
                                 </ul>
@@ -91,8 +91,7 @@ class SpecialFooter extends HTMLElement {
 
                         <div class="social-icons mb-sm-30">
                             <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                            <a href="#"><i class="fa-brands fa-discord"></i></a>
+                            <a href="https://x.com/options_air"><i class="fa-brands fa-x-twitter"></i></a>
                             <a href="#"><i class="fa-brands fa-tiktok"></i></a>
                             <a href="#"><i class="fa-brands fa-youtube"></i></a>
                         </div>
