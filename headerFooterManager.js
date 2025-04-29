@@ -37,8 +37,8 @@ class SpecialHeader extends HTMLElement {
                                     <a href="index.html">
                                         <img class="logo-main" src="images/AOU_LOGO.png" style="width:200px; height:60px;" alt="">
                                         <img class="logo-scroll" src="images/AOU_LOGO.png" style="width:200px; height:60px;" alt="">
-                                           
-                                         <h3 class="logo-mobile" style="color:white; width:200px; height:50px; margin-top:30px;">AirOptions</h3>
+                                         <img class="logo-mobile" src="images/AOU_LOGO.png" style="width:200px; height:60px;" alt=""> 
+                                        
                                     </a>
                                 </div>
                                 <!-- logo close -->
