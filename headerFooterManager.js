@@ -103,12 +103,10 @@ class SpecialFooter extends HTMLElement {
                                 <div class="widget">
                                     <h5>Company</h5>
                                     <ul>                                        
-                                        <li><a href="#">Home</a></li>
-                                        <li><a href="#">Our Services</a></li>
-                                        <li><a href="#">Products</a></li>
-                                        <li><a href="#">About Us</a></li>
-                                        <li><a href="#">News</a></li>
-                                        <li><a href="#">Contact</a></li>
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="product-details.html">Products</a></li>
+                                        <li><a href="about.html">About Us</a></li>
+                                        <li><a href="contact.html">Contact</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -116,12 +114,10 @@ class SpecialFooter extends HTMLElement {
                                 <div class="widget">
                                     <h5>Our Services</h5>
                                     <ul>
-                                        <li><a href="#">Maintenance</a></li>
-                                        <li><a href="#">Repairs</a></li>
-                                        <li><a href="#">Installation</a></li>
-                                        <li><a href="#">Emergency</a></li>
-                                        <li><a href="#">Replacements</a></li>
-                                        <li><a href="#">Dust Cleaning</a></li>
+                                        <li><a href="maintenance.html">Maintenance</a></li>
+                                        <li><a href="repair.html">Repairs</a></li>
+                                        <li><a href="installation.html">Installation</a></li>
+                                        <li><a href="system-replacement.html">Replacements</a></li>
                                     </ul>
                                 </div>
                             </div>
