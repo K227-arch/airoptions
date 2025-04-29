@@ -50,10 +50,10 @@ class SpecialHeader extends HTMLElement {
                                     </li>
                                     <li><a class="menu-item" href="#">Air Conditioning<br>&  Refrigeration</a>
                                         <ul>
-                                            <li><a class="menu-item" href="installation.html">System Replacements</a></li>
-                                            <li><a class="menu-item" href="installation.html">Installation</a></li>
-                                            <li><a class="menu-item" href="repair.html">Repair</a></li>
-                                            <li><a class="menu-item" href="maintenance.html">Maintenance</a></li>
+                                            <li><a class="menu-item" href="sitesurvey.html">Site surveys, consultations and planning</a></li>
+                                            <li><a class="menu-item" href="installation.html">Supply and Installation</a></li>
+                                            <li><a class="menu-item" href="repair.html">Equipment repair</a></li>
+                                            <li><a class="menu-item" href="maintenance.html">System maintenance</a></li>
                                             <li><a class="menu-item" href="pricing-plans.html">Pricing Plans</a></li>
                                             
                                         </ul>
@@ -135,7 +135,8 @@ class SpecialFooter extends HTMLElement {
                             <div class="spacer-20"></div>
 
                             <div class="fw-bold text-white"><i class="icofont-location-pin me-2 id-color-2"></i>Office Location</div>
-                            P.O Box 8285, Kampala - Uganda
+                            P.O Box 8285, <br> Kampala - Uganda
+                            
 
                             <div class="spacer-20"></div>
 
