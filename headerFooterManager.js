@@ -114,11 +114,13 @@ class SpecialFooter extends HTMLElement {
                                 <div class="widget">
                                     <h5>Our Services</h5>
                                     <ul>
-                                        <li><a href="maintenance.html">Maintenance</a></li>
-                                        <li><a href="repair.html">Repairs</a></li>
-                                        <li><a href="installation.html">Installation</a></li>
-                                        <li><a href="system-replacement.html">Replacements</a></li>
-                                    </ul>
+                                            <li><a class="menu-item" href="sitesurvey.html">Site surveys, consultations and planning</a></li>
+                                            <li><a class="menu-item" href="installation.html">Supply and Installation</a></li>
+                                            <li><a class="menu-item" href="repair.html">Equipment repair</a></li>
+                                            <li><a class="menu-item" href="maintenance.html">System maintenance</a></li>
+                                            <li><a class="menu-item" href="pricing-plans.html">Pricing Plans</a></li>
+                                            
+                                        </ul>
                                 </div>
                             </div>
                         </div>
@@ -131,7 +133,9 @@ class SpecialFooter extends HTMLElement {
                             <div class="spacer-20"></div>
 
                             <div class="fw-bold text-white"><i class="icofont-location-pin me-2 id-color-2"></i>Office Location</div>
-                            P.O Box 8285, <br> Kampala - Uganda
+                            Bishop Campling Road, <br> 
+                            Bugolobi - Nakawa Division <br>
+                            P.O Box 118887, <br> Kampala - Uganda
                             
 
                             <div class="spacer-20"></div>
