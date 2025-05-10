@@ -20212,7 +20212,26 @@ img {
   .arrow-divider > [class*=col-]:nth-child(n+2):after{
     display: none;
   }
-
+  .whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 60px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    z-index: 1000;
+    transition: background 0.3s;
+  }
+  .whatsapp-float:hover {
+    background-color: #128C7E;
+  }
+  
 }
 
 /* -------------------------------------------------- 
