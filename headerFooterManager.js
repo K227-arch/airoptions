@@ -21,7 +21,7 @@ class SpecialHeader extends HTMLElement {
                             </div>
                         </div>
                     </div>
-                    <div class="clearfix"></div>
+                    <div class="clearfix"></div>  
                 </div>
             </div>
             
