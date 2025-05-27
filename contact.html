@@ -75,7 +75,7 @@
                             <p>Whether you have a question, a suggestion, or just want to say hello, this is the place to do it. Please fill out the form below with your details and message, and we'll get back to you as soon as possible.</p>
 
                             
-                            <form name="contactForm" id="contact_form" class="position-relative z1000" method="post" action="https://formsubmit.co/info@airoptionsuganda.com">
+                            <form name="contactForm" id="contact_form" class="position-relative z1000" method="post" action="handler.php">
                                 <div class="row gx-4">
                                     <div class="col-lg-6 col-md-6 mb10">
                                         <div class="field-set">
@@ -85,7 +85,7 @@
 
                                         <div class="field-set">
                                             <span class="d-label">Email</span>
-                                            <input type="email" name="email" id="email" class="form-control" placeholder="Your Email" required>
+                                            <input type="email" name="Email" id="email" class="form-control" placeholder="Your Email" required>
                                         </div>
 
                                         <div class="field-set">
@@ -107,16 +107,16 @@
                                     <div class="col-lg-6 col-md-6">
                                         <div class="field-set mb20">
                                             <span class="d-label">Message</span>
-                                            <textarea name="message" id="message" class="form-control" placeholder="Your Message" required></textarea>
+                                            <textarea name="Message" id="message" class="form-control" placeholder="Your Message" required></textarea>
                                         </div>
                                     </div>
                                 </div>
                                     
                                 <div id='submit' class="mt20">
-                                    <input type='submit' id='send_message' value='Send Message' class="btn-main">
+                                    <button type='submit' id='send_message' class="btn-main">Send Message</button>
                                 </div>
 
-                                <div id="success_message" class='success'>
+                                <div id="success_message" class='success' style="display: none">
                                     Your message has been sent successfully. Refresh this page if you want to send more messages.
                                 </div>
                                 <div id="error_message" class='error'>
