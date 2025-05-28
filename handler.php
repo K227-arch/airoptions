@@ -1,4 +1,11 @@
 <?php
+header('Content-Type: application/json');
+
+
+header('Content-Type: application/json');
+echo json_encode(['method' => $_SERVER['REQUEST_METHOD'], 'post' => $_POST]);
+exit;
+
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);

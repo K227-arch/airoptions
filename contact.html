@@ -75,47 +75,53 @@
                             <p>Whether you have a question, a suggestion, or just want to say hello, this is the place to do it. Please fill out the form below with your details and message, and we'll get back to you as soon as possible.</p>
 
                             
-                            <form name="contactForm" id="contact_form" class="position-relative z1000" method="post" action="handler.php">
+                            <form name="contactForm" id="contact_form" class="position-relative z1000" method="POST" action="https://formspree.io/f/mnndevwz">
                                 <div class="row gx-4">
                                     <div class="col-lg-6 col-md-6 mb10">
                                         <div class="field-set">
                                             <span class="d-label">Name</span>
-                                            <input type="text" name="Name" id="name" class="form-control" placeholder="Your Name" required>
+                                            <input type="text" name="name" id="name" class="form-control" placeholder="Your Name" required>
                                         </div>
-
+                            
                                         <div class="field-set">
                                             <span class="d-label">Email</span>
-                                            <input type="email" name="Email" id="email" class="form-control" placeholder="Your Email" required>
+                                            <input type="email" name="email" id="email" class="form-control" placeholder="Your Email" required>
                                         </div>
-
+                            
                                         <div class="field-set">
                                             <span class="d-label">Category</span>
                                             <select name="category" id="category" class="form-control" required>
-                                              <option value="">Select a Category</option>
-                                              <option value="Category 1">Air conditioning</option>
-                                              <option value="Category 2">Refrigeration</option>
+                                                <option value="">Select a Category</option>
+                                                <option value="Air conditioning">Air conditioning</option>
+                                                <option value="Refrigeration">Refrigeration</option>
                                             </select>
-                                          </div>
-                                          
-
+                                        </div>
+                            
                                         <div class="field-set">
                                             <span class="d-label">Phone</span>
                                             <input type="text" name="phone" id="phone" class="form-control" placeholder="Your Phone" required>
                                         </div>
                                     </div>
-                                    
+                            
                                     <div class="col-lg-6 col-md-6">
                                         <div class="field-set mb20">
                                             <span class="d-label">Message</span>
-                                            <textarea name="Message" id="message" class="form-control" placeholder="Your Message" required></textarea>
+                                            <textarea name="message" id="message" class="form-control" placeholder="Your Message" required></textarea>
                                         </div>
                                     </div>
                                 </div>
-                                    
+                            
+                                <!-- FormSubmit hidden inputs -->
+                                <input type="hidden" name="_captcha" value="false">
+                                <input type="hidden" name="_template" value="table">
+                                <input type="hidden" name="_autoresponse" value="Thank you for your message. We'll get back to you soon.">
+                                <!-- Optional redirect after submit -->
+                                <input type="hidden" name="_next" value="https://airoptionsuganda.com/contact.html">
+                            
                                 <div id='submit' class="mt20">
                                     <button type='submit' id='send_message' class="btn-main">Send Message</button>
                                 </div>
-
+                            
                                 <div id="success_message" class='success' style="display: none">
                                     Your message has been sent successfully. Refresh this page if you want to send more messages.
                                 </div>
@@ -123,6 +129,7 @@
                                     Sorry there was an error sending your form.
                                 </div>
                             </form>
+                            
 
                             </div>
 
@@ -169,9 +176,7 @@
     <script src="headerFooterManager.js" defer></script>
     <script src="js/plugins.js"></script>
     <script src="js/designesia.js"></script>
-    <script src='https://www.google.com/recaptcha/api.js' async defer></script>
     <script src="form.js"></script>
-    <script src="recaptcha.js"></script>
    
 </body>
 

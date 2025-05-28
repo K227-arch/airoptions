@@ -1,20 +1,37 @@
-function after_form_submitted(data) 
-{
-    if (data.result == 'success') {
-        $('#success_message').show();
-        $('#error_message').hide();
-
-        // Wait 2 seconds, then refresh
-        setTimeout(function () {
-            location.reload();
-        }, 2000);
-    } else {
-        $('#error_message').html('<ul></ul>');
-        jQuery.each(data.errors, function (key, val) {
-            $('#error_message ul').append('<li>' + key + ': ' + val + '</li>');
+document.addEventListener("DOMContentLoaded", function () {
+    const form = document.getElementById("contact_form");
+  
+    if (!form) return;
+  
+    form.addEventListener("submit", async function (e) {
+      e.preventDefault();
+  
+      const formData = new FormData(form);
+  
+      try {
+        const response = await fetch("https://formspree.io/f/mnndevwz", {
+          method: "POST",
+          body: formData,
+          headers: {
+            'Accept': 'application/json'
+          }
         });
-        $('#success_message').hide();
-        $('#error_message').show();
-    }
-}
-
+  
+        if (response.ok) {
+          // Show success message
+          document.getElementById("success_message").style.display = "block";
+  
+          // Refresh after delay
+          setTimeout(() => {
+            window.location.reload();
+          }, 2000);
+        } else {
+          // Show error message
+          document.getElementById("error_message").style.display = "block";
+        }
+      } catch (error) {
+        document.getElementById("error_message").style.display = "block";
+        console.error("Form submission error:", error);
+      }
+    });
+  });
