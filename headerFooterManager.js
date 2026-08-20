@@ -46,7 +46,7 @@ class SpecialHeader extends HTMLElement {
                                     <li><a class="menu-item" href="index.html">Home</a>
                                         
                                     </li>
-                                    <li><a class="menu-item" href="#">Air Conditioning<br>&  Refrigeration</a>
+                                    <li><a class="menu-item" href="#">Air Conditioning<br> Services</a>
                                         <ul>
                                             <li><a class="menu-item" href="sitesurvey.html">Site surveys, consultations and planning</a></li>
                                             <li><a class="menu-item" href="installation.html">Supply and Installation</a></li>
